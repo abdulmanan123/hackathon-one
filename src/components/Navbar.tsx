@@ -80,7 +80,7 @@ export const Navbar = () => {
               onClick={() => setToggleMenu(false)}
             />
             <ul className="navbar-smallscreen_links">
-              <Link href="/cart">
+              {/* <Link href="/cart">
                 <button
                   className="cart-small-screen"
                   onClick={() => setShowCart(false)}
@@ -88,7 +88,7 @@ export const Navbar = () => {
                   <CgShoppingCart size={22} />
                   <span className="cart-item-qty">{totalQty}</span>
                 </button>
-              </Link>
+              </Link> */}
               <Link href="/female">
                 <li>Female</li>
               </Link>
