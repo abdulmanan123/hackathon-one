@@ -3,7 +3,7 @@
 import React from "react";
 
 export const Newsletter = () => {
-  const handleSubmit = (event) => {
+  const handleSubmit = (event: any) => {
     event.preventDefault();
   };
 
